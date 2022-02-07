@@ -1,0 +1,16 @@
+body > header {
+  padding: 1rem .5rem 1rem .5rem;
+}
+
+#map {
+  margin-top: 1rem;
+  background: #888;
+  box-sizing: border-box;
+  border-radius: .5rem;
+  padding: 1rem;
+  max-width: 100%;
+}
+
+#heart {
+  height: 1em;
+}
