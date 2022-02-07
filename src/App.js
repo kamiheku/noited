@@ -98,6 +98,10 @@ function App () {
       </p>
 
       <p>
+        After the image is generated, you can save it by right-clicking and choosing Save Image As.
+      </p>
+
+      <p>
         On Windows, the <code>sessions</code> folder is located at <code>C:\Users\YOUR_NAME_HERE\AppData\LocalLow\Nolla_Games_Noita\save00\stats\sessions</code>
       </p>
 

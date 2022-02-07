@@ -2,6 +2,10 @@ body > header {
   padding: 1rem .5rem 1rem .5rem;
 }
 
+body > header > p {
+  margin: auto;
+}
+
 #map {
   margin-top: 1rem;
   background: #888;
@@ -13,4 +17,8 @@ body > header {
 
 #heart {
   height: 1em;
+}
+
+#logo {
+  max-width: 50%;
 }
