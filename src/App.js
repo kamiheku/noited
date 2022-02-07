@@ -102,8 +102,12 @@ function App () {
       </p>
 
       <p>
-        On Windows, the <code>sessions</code> folder is located at <code>C:\Users\YOUR_NAME_HERE\AppData\LocalLow\Nolla_Games_Noita\save00\stats\sessions</code>
+        On Windows, the <code>sessions</code> folder is located at:
       </p>
+
+      <pre>
+        C:\Users\YOUR_NAME_HERE\AppData\LocalLow\Nolla_Games_Noita\save00\stats\sessions
+      </pre>
 
       <p>
         <strong>Note:</strong> For some reason, not all deaths are logged properly (no coordinates stored in the XML) and thus not displayed &#8212; could be deaths before a certain version?
