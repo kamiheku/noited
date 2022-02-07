@@ -114,7 +114,7 @@ function App () {
       </p>
 
       <p>
-        <strong>Another note:</strong> Your data doesn't leave your computer, all processing is client-side. Check your DevTools tab if you don't believe me!
+        <strong>Another note:</strong> Your data doesn't leave your computer, all processing is client side. Check your DevTools if you don't believe me!
       </p>
 
       <button onClick={pickDirectory}>
