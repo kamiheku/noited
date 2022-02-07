@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/noited/static/css/main.cf1071b7.css",
+    "main.js": "/noited/static/js/main.97cb8026.js",
+    "static/media/map.png": "/noited/static/media/map.66fc8e1b67171c7fc8c9.png",
+    "index.html": "/noited/index.html",
+    "main.cf1071b7.css.map": "/noited/static/css/main.cf1071b7.css.map",
+    "main.97cb8026.js.map": "/noited/static/js/main.97cb8026.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf1071b7.css",
+    "static/js/main.97cb8026.js"
+  ]
+}
