@@ -24,6 +24,7 @@
     <meta property="twitter:image" content="https://kamiheku.github.io/noited/noited-color.png">
 
     <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/style.css">
 
     <!-- Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/apple-touch-icon.png">
@@ -42,15 +43,32 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
 
     <header>
-      <img alt="Noited" id="logo" src="noited-color.png" />
+      <img alt="Noited" id="logo" src="%PUBLIC_URL%/noited-color.png" />
       <p>A Noita death visualizer</p>
     </header>
 
-    <main id="root">
+    <main>
+      <h2>Usage</h2>
+
+      <p>
+        Click the button below and open your Noita <code>sessions</code>
+        folder. Your session files are then processed, after which the map
+        should be displayed in the gray box below. After the image is
+        generated, you can save it by right-clicking it and choosing <em>Save
+        Image As</em>.
+      </p>
+
+      <p>
+        On Windows, the <code>sessions</code> folder is located at:
+      </p>
+
+      <pre>C:\Users\YOUR_NAME_HERE\AppData\LocalLow\Nolla_Games_Noita\save00\stats\sessions</pre>
+
+      <div id="root"></div>
     </main>
 
     <footer>
-      Made with <img alt="love" id="heart" src="heart.png" /> by me (<a href="https://github.com/kamiheku/noited">code on GitHub 💩</a>)
+      Made with <img alt="love" id="heart" src="%PUBLIC_URL%/heart.png" /> by me (<a href="https://github.com/kamiheku/noited">code on GitHub</a>)
     </footer>
   </body>
 </html>

@@ -91,32 +91,6 @@ function App () {
 
   return (
     <>
-      <h2>Usage</h2>
-
-      <p>
-        Just click the button below and open your Noita <code>sessions</code> folder. Then wait a bunch of time, after which the map should be displayed in the gray box below. It might also crash your browser if too many deaths have been recorded, who knows really!
-      </p>
-
-      <p>
-        After the image is generated, you can save it by right-clicking and choosing Save Image As.
-      </p>
-
-      <p>
-        On Windows, the <code>sessions</code> folder is located at:
-      </p>
-
-      <pre>
-        C:\Users\YOUR_NAME_HERE\AppData\LocalLow\Nolla_Games_Noita\save00\stats\sessions
-      </pre>
-
-      <p>
-        <strong>Note:</strong> For some reason, not all deaths are logged properly (no coordinates stored in the XML) and thus not displayed &#8212; could be deaths before a certain version?
-      </p>
-
-      <p>
-        <strong>Another note:</strong> Your data doesn't leave your computer, all processing is client side. Check your DevTools if you don't believe me!
-      </p>
-
       <button onClick={pickDirectory}>
         Open your Noita sessions folder
       </button>
